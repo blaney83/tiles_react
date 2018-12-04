@@ -1,18 +1,11 @@
-import React, { Component } from 'react';
-import NavBar from "./components/NavBar";
-import Card from './components/Card';
-import './App.css';
+import React from "react";
+import AppContainer from "./components/AppContainer";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
+import "./style.css"
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <NavBar></NavBar>
-        <Card></Card>
-      </div>
-    );
-  }
+
+function App() {
+  return <AppContainer/>;
 }
 
 export default App;

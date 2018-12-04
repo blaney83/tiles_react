@@ -1,0 +1,37 @@
+.navScore {
+    color: white;
+    font-size: 1rem;
+}
+
+p{
+    margin-bottom: 0 !important;
+    text-align: right;
+}
+
+.makeWide{
+    width: 50%
+}
+
+@media screen and (max-width: 600px) {
+    .navScore {
+        font-size: 14px !important;
+    }
+}
+
+.navbar{
+    position: sticky !important;
+    z-index: 1;
+    top:0px;
+}
+
+.navMessage {
+    color: white;
+    font-size: 1rem;
+    word-wrap: break-word;
+}
+
+@media screen and (max-width: 600px) {
+    .navMessage {
+        font-size: 10px !important;
+    }
+}
